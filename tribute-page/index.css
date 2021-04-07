@@ -1,0 +1,22 @@
+h1#title {
+    text-align: center;
+}
+
+figure#img-div {
+    margin: auto;
+}
+
+img#image {
+    width: 80%;
+    max-width: 1024px;
+    margin: auto;
+    display: block;
+}
+
+figcaption#img-caption {
+    text-align: center;
+}
+
+section#tribute-info {
+    padding-top: 2em;
+}
