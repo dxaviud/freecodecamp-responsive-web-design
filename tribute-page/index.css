@@ -1,22 +1,41 @@
+main#main {
+    background: linear-gradient(0deg, gold, white);
+}
+
 h1#title {
     text-align: center;
 }
 
 figure#img-div {
+    width: 95%;
     margin: auto;
+    padding-top: 2em;
+    border-radius: 2em;
+    background-color: #eee;
 }
 
 img#image {
     width: 80%;
     max-width: 1024px;
     margin: auto;
+    border-radius: 2em;
     display: block;
 }
 
 figcaption#img-caption {
     text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #333;
 }
 
 section#tribute-info {
+    text-align: center;
     padding-top: 2em;
+}
+
+footer {
+    padding: 2em;
+    text-align: center;
+    font-weight: bold;
 }
