@@ -6,8 +6,36 @@ body {
     );
     color: white;
     font-family: monospace;
+    font-size: 16px;
+    text-align: center;
 }
 
-h1 {
-    text-align: center;
+h1#title {
+    margin-bottom: 0;
+}
+
+p#description {
+    font-style: italic;
+}
+
+form#survey-form {
+    background-color: rgba(25, 0, 50, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 720px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 1em;
+}
+
+input {
+    width: 80%;
 }
