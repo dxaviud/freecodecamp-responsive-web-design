@@ -26,6 +26,7 @@ form#survey-form {
     margin: 0 auto;
     max-width: 720px;
     padding: 20px;
+    border-radius: 5px;
     font-size: 18px;
 }
 
@@ -33,9 +34,12 @@ label {
     display: block;
     text-align: left;
     width: 80%;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
 }
 
 input {
     width: 80%;
+    height: 2em;
+    padding-left: 1em;
 }
