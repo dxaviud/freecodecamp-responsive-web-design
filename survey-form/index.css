@@ -1,7 +1,13 @@
 body {
     background: linear-gradient(
-        45deg,
+        90deg,
         rgba(50, 50, 255, 0.8),
         rgba(150, 150, 255, 0.8)
     );
+    color: white;
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
 }
