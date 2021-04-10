@@ -45,7 +45,7 @@
             <label for="role"
                 >Which option best describes your current role?</label
             >
-            <select id="role" form="survey-form" name="role" required>
+            <select id="dropdown" form="survey-form" name="role" required>
                 <option value="" disabled selected>Select your role</option>
                 <option value="student">Student</option>
                 <option value="full time job">Full Time Job</option>
@@ -53,6 +53,30 @@
                 <option value="prefer not to say">Prefer not to say</option>
                 <option value="other">Other</option>
             </select>
+            <label for="recommend"
+                >Would you recommend freeCodeCamp to a friend?</label
+            >
+            <fieldset id="recommend">
+                <input
+                    id="definitely"
+                    type="radio"
+                    name="recommend"
+                    value="definitely"
+                />
+                <label class="inline" for="definitely">Definitely</label>
+                <br />
+                <input id="maybe" type="radio" name="recommend" value="maybe" />
+                <label class="inline" for="maybe">Maybe</label>
+                <br />
+                <input
+                    id="not-sure"
+                    type="radio"
+                    name="recommend"
+                    value="not-sure"
+                />
+                <label class="inline" for="not-sure">Not sure</label>
+                <br />
+            </fieldset>
         </form>
     </body>
 </html>

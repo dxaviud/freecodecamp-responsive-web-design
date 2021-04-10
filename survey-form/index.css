@@ -56,3 +56,17 @@ select {
     padding-left: 1em;
     color: #555;
 }
+
+fieldset {
+    width: 80%;
+    border: none;
+    text-align: left;
+}
+
+input[type="radio"] {
+    width: fit-content;
+}
+
+label.inline {
+    display: inline;
+}
