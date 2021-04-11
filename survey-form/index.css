@@ -40,7 +40,8 @@ label {
     margin-top: 1.5em;
 }
 
-input {
+input,
+textarea {
     width: 80%;
     height: 2em;
     padding-left: 1em;
@@ -59,14 +60,33 @@ select {
 
 fieldset {
     width: 80%;
+    padding: 0;
     border: none;
     text-align: left;
 }
 
-input[type="radio"] {
+input[type="radio"],
+input[type="checkbox"] {
     width: fit-content;
+    height: fit-content;
+    margin-bottom: 1em;
 }
 
 label.inline {
     display: inline;
+}
+
+textarea {
+    height: max(10vh, 100px);
+    padding-top: 0.5em;
+    font-size: 16px;
+}
+
+button#submit {
+    margin-top: 2em;
+    width: 83%;
+    height: 3em;
+    border: none;
+    background-color: rgba(60, 180, 70, 1);
+    color: white;
 }
