@@ -48,7 +48,13 @@ section#tribute-info {
 
 ul#timeline {
     margin: auto;
-    max-width: 600px;
+    max-width: 550px;
+    text-align: left;
+    line-height: 2em;
+}
+
+li {
+    margin: 16px 0;
 }
 
 blockquote > p#quote {
