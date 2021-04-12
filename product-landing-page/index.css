@@ -1,5 +1,6 @@
 :root {
-    --header-height: 50px;
+    --header-height: 60px;
+    --primary-color: #6f6;
 }
 
 header {
@@ -8,12 +9,32 @@ header {
     left: 0;
     width: 100vw;
     height: var(--header-height);
+    background-color: var(--primary-color);
+}
+
+#header-img {
+    height: 50px;
+    padding: 5px 0;
+    margin-left: 60px;
+}
+
+h1 {
+    
 }
 
 nav#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 110px;
+    width: calc(100% - 110px);
+    height: var(--header-height);
     display: flex;
-    flex-basis: 100%;
     justify-content: space-around;
+    align-items: center;
+}
+
+a.nav-link {
+    text-decoration: none;
 }
 
 main {
@@ -21,8 +42,15 @@ main {
 }
 
 @media (max-width: 400px) {
+    header {
+        height: calc(var(--header-height)*2);
+    }
+
     nav#nav-bar {
         flex-direction: column;
         align-items: flex-end;
+        height: calc(var(--header-height)*2);
+        right: 20px;
+        left: initial;
     }
 }
