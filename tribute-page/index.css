@@ -51,6 +51,7 @@ ul#timeline {
     max-width: 550px;
     text-align: left;
     line-height: 2em;
+    list-style-type: square;
 }
 
 li {
