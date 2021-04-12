@@ -20,8 +20,14 @@ figure#img-div {
     background-color: #eee;
 }
 
-img#image {
+figcaption#img-caption {
+    margin: 0 auto;
+    text-align: center;
     width: 80%;
+}
+
+img#image {
+    width: 90%;
     max-width: 1024px;
     margin: auto;
     border-radius: 2em;
