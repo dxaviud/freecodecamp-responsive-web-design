@@ -46,6 +46,17 @@ section#tribute-info {
     padding-top: 2em;
 }
 
+ul#timeline {
+    margin: auto;
+    max-width: 600px;
+}
+
+blockquote > p#quote {
+    margin: 0 auto;
+    max-width: 550px;
+    text-align: left;
+}
+
 footer {
     padding: 2em;
     text-align: center;
