@@ -18,8 +18,14 @@ header {
     margin-left: 60px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
-    
+    text-align: center;
 }
 
 nav#nav-bar {
