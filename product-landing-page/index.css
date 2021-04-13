@@ -1,6 +1,8 @@
 :root {
     --header-height: 60px;
     --primary-color: #6f6;
+    --secondary-color: #eee;
+    background-color: var(--secondary-color);
 }
 
 header {
@@ -50,6 +52,25 @@ p#subh1 {
     font-size: 24px;
     font-style: italic;
     text-align: center;
+}
+
+form#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type=email] {
+    width: 60vw;
+    height: 2em;
+    padding-left: 1em;
+}
+
+input[type=submit] {
+    width: 30vw;
+    height: 2em;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 @media (max-width: 400px) {
