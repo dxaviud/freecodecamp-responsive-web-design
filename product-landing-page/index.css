@@ -14,8 +14,8 @@ header {
     background-color: var(--primary-color);
 }
 
-#header-img {
-    height: 50px;
+img#header-img {
+    height: calc(var(--header-height) - 10px);
     padding: 5px 0;
     margin-left: 60px;
 }
@@ -76,6 +76,10 @@ input[type=submit] {
 @media (max-width: 400px) {
     header {
         height: calc(var(--header-height) * 1.5);
+    }
+
+    img#header-img {
+        height: calc(var(--header-height) * 1.5 - 10px);
     }
 
     nav#nav-bar {
