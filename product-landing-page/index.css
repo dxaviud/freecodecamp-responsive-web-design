@@ -73,6 +73,28 @@ input[type=submit] {
     text-transform: uppercase;
 }
 
+.mochi {
+    width: 60px;
+    height: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--primary-color);
+}
+
+.macha {
+    background-color: var(--primary-color);
+}
+
+.strawberry {
+    background-color: #f6f;
+}
+
+.vanilla {
+    background-color: #ff9;
+}
+
 @media (max-width: 400px) {
     header {
         height: calc(var(--header-height) * 1.5);
@@ -96,5 +118,9 @@ input[type=submit] {
 
     p#subh1 {
         font-size: 18px;
+    }
+
+    input[type=submit] {
+        font-size: 10px;
     }
 }
