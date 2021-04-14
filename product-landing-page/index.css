@@ -96,6 +96,12 @@ section#section1 {
     display: inline-block;
 }
 
+.variety-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+}
+
 .macha {
     background-color: var(--primary-color);
 }
