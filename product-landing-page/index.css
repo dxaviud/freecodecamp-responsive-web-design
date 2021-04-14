@@ -73,14 +73,27 @@ input[type=submit] {
     text-transform: uppercase;
 }
 
+section#section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+}
+
 .mochi {
+    display: inline-block;
     width: 60px;
     height: 40px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-right: 2em;
     background-color: var(--primary-color);
+}
+
+.variety-description {
+    display: inline-block;
 }
 
 .macha {
@@ -93,6 +106,11 @@ input[type=submit] {
 
 .vanilla {
     background-color: #ff9;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
 }
 
 @media (max-width: 400px) {
