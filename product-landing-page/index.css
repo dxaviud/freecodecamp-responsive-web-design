@@ -120,13 +120,14 @@ section#section1 {
 }
 
 section#section2 {
-    width: fit-content;
-    height: fit-content;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 iframe {
-    max-width: 800px;
-    max-height: 500px;
+    max-width: 944px;
+    width: 100%;
 }
 
 @media (max-width: 400px) {
