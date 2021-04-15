@@ -62,14 +62,16 @@ form#form {
 }
 
 input[type=email] {
-    width: 60vw;
+    min-width: 225px;
+    max-width: 600px;
+    width: 50vw;
     height: 2em;
     padding-left: 1em;
 }
 
 input[type=submit] {
-    width: 30vw;
-    height: 2em;
+    width: 150px;
+    height: 3em;
     background-color: var(--primary-color);
     text-transform: uppercase;
 }
@@ -129,11 +131,12 @@ section#section2 {
 iframe {
     max-width: 944px;
     width: 100%;
+    height: calc(100vw / 1.748);
 }
 
 section#section3 {
     margin-top: 3em;
-    max-width: 600px;
+    max-width: 1200px;
     width: 100%;
     display: flex;
     justify-content: space-around;
