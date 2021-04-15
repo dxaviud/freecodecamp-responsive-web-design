@@ -83,6 +83,8 @@ section#section1 {
     min-height: 300px;
     height: auto;
     padding-left: 10vw;
+    padding-right: 5vw;
+    padding-top: 5em;
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -213,5 +215,12 @@ section#section3 {
 
     input[type=submit] {
         font-size: 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    section#section1 {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
