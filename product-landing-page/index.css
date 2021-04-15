@@ -142,7 +142,7 @@ section#section3 {
 
 .option {
     margin-bottom: 2em;
-    width: 15em;
+    width: 20em;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -154,6 +154,7 @@ section#section3 {
 .option-description {
     height: 1em;
     padding: 1em;
+    font-size: 1.5em;
 }
 
 .option-name {
@@ -161,11 +162,22 @@ section#section3 {
     font-weight: bold;
 }
 
+.option-price {
+    align-self: center;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+.option-description {
+    height: auto;
+}
+
 .option button {
     align-self: center;
     margin-top: 1em;
     border-radius: 5px;
     width: 50%;
+    height: 3em;
     margin-bottom: 1em;
     background-color: var(--primary-color);
     text-transform: uppercase;
