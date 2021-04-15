@@ -132,6 +132,7 @@ iframe {
 }
 
 section#section3 {
+    margin-top: 3em;
     max-width: 600px;
     width: 100%;
     display: flex;
@@ -156,6 +157,12 @@ section#section3 {
 
 .option-name {
     background-color: var(--primary-color-tint);
+    font-weight: bold;
+}
+
+.option button {
+    background-color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 @media (max-width: 400px) {
