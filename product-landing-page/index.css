@@ -141,7 +141,8 @@ section#section3 {
 }
 
 .option {
-    width: 10em;
+    margin-bottom: 2em;
+    width: 15em;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -151,8 +152,8 @@ section#section3 {
 .option-name,
 .option-price,
 .option-description {
-    height: 2em;
-    padding: 1em 1em 0 1em;
+    height: 1em;
+    padding: 1em;
 }
 
 .option-name {
@@ -161,6 +162,11 @@ section#section3 {
 }
 
 .option button {
+    align-self: center;
+    margin-top: 1em;
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom: 1em;
     background-color: var(--primary-color);
     text-transform: uppercase;
 }
