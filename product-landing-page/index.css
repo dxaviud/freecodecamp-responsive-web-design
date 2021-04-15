@@ -34,6 +34,7 @@ nav#nav-bar {
 
 a.nav-link {
     text-decoration: none;
+    color: black;
 }
 
 main {
