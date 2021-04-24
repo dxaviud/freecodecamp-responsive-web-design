@@ -133,8 +133,8 @@ section#section2 {
 
 iframe {
     max-width: 944px;
+    aspect-ratio: 1280/720;
     width: 100%;
-    height: calc(100vw / 1.748);
 }
 
 section#section3 {
