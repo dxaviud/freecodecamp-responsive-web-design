@@ -3,6 +3,7 @@
     --primary-color: #6f6;
     --secondary-color: #eee;
     --primary-color-tint: #9f9;
+    scroll-padding-top: var(--header-height);
     background-color: var(--secondary-color);
 }
 
@@ -85,7 +86,6 @@ section#section1 {
     height: auto;
     padding-left: 10vw;
     padding-right: 5vw;
-    padding-top: 5em;
     margin-top: 2em;
     margin-bottom: 2em;
 }
