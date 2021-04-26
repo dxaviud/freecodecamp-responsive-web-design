@@ -62,9 +62,11 @@
             <header><h2>Hello world</h2></header>
             <p>
                 To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
-                <code>function greetMe(yourName) { alert("Hello " + yourName); }
-                    greetMe("World");
-                </code>               
+            </p>
+            <code>function greetMe(yourName) { alert("Hello " + yourName); }
+                greetMe("World");
+            </code>               
+            <p>
                 Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
             </p>
         </section>
@@ -87,20 +89,26 @@
             </p>
             <p>
                 With the keyword var. For example,
-                <code>var x = 42;
-                </code>
+            </p>
+            <code>var x = 42;
+            </code>
+            <p>
                 This syntax can be used to declare both local and global variables.
             </p>
             <p>
                 With the keyword var. For example,
-                <code>x = 42;
-                </code>
+            </p>
+            <code>x = 42;
+            </code>
+            <p>
                 This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.
             </p>
             <p>
                 With the keyword let. For example,
-                <code>let y = 13;
-                </code>
+            </p>
+            <code>let y = 13;
+            </code>
+            <p>
                 This syntax can be used to declare a block scope local variable. See Variable scope below.
             </p>
         </section>
@@ -252,12 +260,31 @@
         <section id="function_declarations" class="main-section">
             <header><h2>Function delcarations</h2></header>
             <p>
-
+                A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
             </p>    
             <ul>
                 <li>The name of the function.</li>
                 <li>A list of arguments to the function, enclosed in parentheses and separated by commas.</li>
                 <li>The JavaScript statements that define the function, enclosed in curly brackets, {}.</li>
+            </ul>
+            <p>
+                For example, the following code defines a simple function named square:
+            </p>
+            <code>function square(number) { return number * number; }
+            </code>
+            <p>
+                The function square takes one argument, called number. The function consists of one statement that says to return the argument of the function (that is, number) multiplied by itself. The return statement specifies the value returned by the function.
+            </p>
+            <code>return number * number;
+            </code>
+            <p>
+                Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.
+            </p>
+        </section>
+        <section id="reference" class="main-section">
+            <header><h2>Reference</h2></header>
+            <ul>
+                <li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN</a></li>
             </ul>
         </section>
     </main>

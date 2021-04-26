@@ -1,8 +1,32 @@
+:root {
+    --navbar-width: clamp(150px, 25vw, 250px);
+    font-family: consolas;
+}
+
 #navbar {
+    width: var(--navbar-width);
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-right: 2px solid black;
+}
+
+#navbar > * {
+    padding: 0.5em;
+    border-bottom: 2px solid black;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #555;
+}
+
+main#main-doc {
+    margin: 0 0 0 var(--navbar-width);
 }
 
 code {
