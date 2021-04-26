@@ -1,5 +1,6 @@
 :root {
     --font-color: #f0f0f0;
+    --font-size: 48px;
     --navbar-height: 80px;
     --navbar-color: hsl(0, 60%, 50%);
     color: var(--font-color);
@@ -7,8 +8,34 @@
     scroll-padding-top: var(--navbar-height);
 }
 
+body {
+    margin: 0;
+}
+
 #welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, #222, #333);
+}
+
+.welcome-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-inner h1 {
+    margin: 0.2em auto;
+    font-size: var(--font-size);
+}
+
+.special-text {
+    font-style: italic;
+    font-size: calc(var(--font-size) / 2);
+    color: var(--navbar-color);
 }
 
 #navbar {
