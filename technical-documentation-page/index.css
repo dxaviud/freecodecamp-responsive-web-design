@@ -25,8 +25,13 @@
     color: #555;
 }
 
-main#main-doc {
-    margin: 0 0 0 var(--navbar-width);
+#main-doc {
+    margin: 2em 0 2em var(--navbar-width);
+    padding-left: 1em;
+}
+
+section.main-section {
+    margin-bottom: 2.5em;
 }
 
 code {
