@@ -1,11 +1,40 @@
-section#welcome-section {
+:root {
+    --font-color: #f0f0f0;
+    --navbar-height: 80px;
+    --navbar-color: hsl(0, 60%, 50%);
+    color: var(--font-color);
+    font-family: 'Oxygen Mono', monospace;
+    scroll-padding-top: var(--navbar-height);
+}
+
+#welcome-section {
     height: 100vh;
 }
 
-nav#navbar {
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
+    height: var(--navbar-height);
+    width: 100vw;
+    background-color: var(--navbar-color);
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 400px;
+    list-style-type: none;
+    margin-right: 2em;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--font-color);
 }
 
 @media (max-width: 400px) {
