@@ -65,9 +65,80 @@ body {
 }
 
 #projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     min-height: 100vh;
     width: 100vw;
     background-color: #fa0;
+}
+
+#projects header h2 {
+    margin: 3em 0 2em 0;
+    font-size: calc(var(--font-size) / 1.5);
+    color: #222;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+
+#projects a {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.projects-grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+}
+
+.project-tile {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 50vh;
+    background-color: #333;
+}
+
+.project-img {
+    width: 100%;
+    height: 80%;
+    background-color: #222;
+}
+
+.project-tile a {
+    display: block;
+    height: 20%;
+    width: 100%;
+}
+
+.project-tile a:hover .html-tag-effect {
+    color: #fa0;
+}
+
+.project-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.html-tag-effect {
+    color: #333;
+    transition-property: color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+}
+
+.projects-button {
+    margin: 2em 0 3em 0;
+    height: 2em;
+    width: 200px;
+    text-align: center;
+    background-color: #333;
 }
 
 #contact-info {
