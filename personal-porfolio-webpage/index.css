@@ -6,6 +6,7 @@
     color: var(--font-color);
     font-family: 'Oxygen Mono', monospace;
     scroll-padding-top: var(--navbar-height);
+    scroll-behavior: smooth;
 }
 
 body {
@@ -128,17 +129,33 @@ body {
 
 .html-tag-effect {
     color: #333;
-    transition-property: color;
-    transition-duration: 0.25s;
-    transition-timing-function: ease-in;
+    transition: color 0.25s ease-in;
 }
 
 .projects-button {
     margin: 2em 0 3em 0;
-    height: 2em;
-    width: 200px;
+    height: 2.5em;
+    width: 150px;
+    font-size: 18px;
+    font-family: inherit;
+    border: none;
     text-align: center;
     background-color: #333;
+    color: var(--font-color);
+    transition: background-color 0.3s ease-in;
+}
+
+.projects-button:hover {
+    background-color: var(--navbar-color);
+}
+
+.projects-button:hover .gt {
+    transform: translateX(0.3em);
+}
+.gt {
+    display: inline-block;
+    font-weight: bold;
+    transition: transform 0.3s ease-in;
 }
 
 #contact-info {
