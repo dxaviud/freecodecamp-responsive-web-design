@@ -163,11 +163,35 @@ body {
 
 #contact-info {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 75vh;
     width: 100vw;
     background-color: #333;
+}
+
+#contact-info header h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: var(--font-size);
+}
+
+#contact-info .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    list-style-type: none;
+}
+
+.contact-links a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: inherit;
+    font-size: calc(var(--font-size) / 2);
 }
 
 footer {
