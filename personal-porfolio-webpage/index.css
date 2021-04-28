@@ -57,6 +57,7 @@ body {
 .welcome-inner h1 {
     margin: 0.2em auto;
     font-size: var(--font-size);
+    text-align: center;
 }
 
 .special-text {
@@ -172,9 +173,18 @@ body {
 }
 
 #contact-info header h2 {
+    margin-bottom: 0;
     text-align: center;
     text-transform: capitalize;
     font-size: var(--font-size);
+}
+
+#contact-info p {
+    margin-right: 1em;
+    margin-left: 1em;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 3em;
 }
 
 #contact-info .contact-links {
@@ -183,7 +193,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     list-style-type: none;
 }
 
@@ -192,12 +202,19 @@ body {
     text-decoration: none;
     color: inherit;
     font-size: calc(var(--font-size) / 2);
+    transition: transform 0.2s ease-in;
+}
+
+.contact-links a:hover {
+    transform: translateY(0.5em);
 }
 
 footer {
     height: calc(25vh - var(--navbar-height) - 5px);
     border-top: 5px solid var(--navbar-color);
     background-color: #333;
+    text-align: center;
+    line-height: calc(25vh - var(--navbar-height) - 5px);
 }
 
 @media (max-width: 1100px) {
@@ -224,9 +241,22 @@ footer {
         background-color: #333;
     }
 
+    #contact-info header h2 {
+        font-size: calc(var(--font-size) / 1.5);
+    }
 }
 
 @media (max-width: 580px) {
+    .welcome-inner h1 {
+        font-size: calc(var(--font-size) / 1.5);
+        margin-right: 1em;
+    }
+
+    .special-text {
+        font-size: calc(var(--font-size) / 2.5);
+        margin-right: 1em;
+    }
+
     .project-tile {
         width: 80vw;
         height: 50vh;
@@ -238,4 +268,23 @@ footer {
         text-align: center;
     }
 
+}
+
+@media (max-width: 330px) {
+    #navbar ul li a {
+        font-size: 12px;
+        margin: 0 0.5em;
+    }
+
+    .project-tile {
+        height: 30vh;
+    }
+
+    .project-tile a {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
 }
