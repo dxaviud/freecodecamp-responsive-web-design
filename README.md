@@ -2,5 +2,5 @@
 
 My projects for freeCodeCamp's responsive web design [certification](https://www.freecodecamp.org/certification/dxaviud/responsive-web-design).
 
-[tribute-page](https://codepen.io/dxaviud/full/NWdaKbG)
-[survey-form](https://codepen.io/dxaviud/full/LYxOrvJ)
+[tribute-page](https://codepen.io/dxaviud/full/NWdaKbG)   
+[survey-form](https://codepen.io/dxaviud/full/LYxOrvJ)   
