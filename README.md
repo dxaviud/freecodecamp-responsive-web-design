@@ -6,3 +6,4 @@ My projects for freeCodeCamp's responsive web design [certification](https://www
 [survey-form](https://codepen.io/dxaviud/full/LYxOrvJ)  
 [product-landing-page](https://codepen.io/dxaviud/full/XWpVwop)  
 [technical-documentation-page](https://codepen.io/dxaviud/full/oNByyRx)  
+[personal-portfolio-webpage](https://codepen.io/dxaviud/full/abpjpBO)
